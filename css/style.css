@@ -61,9 +61,55 @@ body{
 	font-weight: 600;
 }
 
+#gem {
+	text-align: center;
+	font-size: 45px;
+}
+
+#iconsizquierda {
+	font-size: 40px
+}
+
+#getiton {
+	text-align: center;
+}
+
+#iconsizquierda2 {
+	font-size: 40px
+}
+
+#rowfeatures i{
+	font-size: 25px;
+	color: #fff;
+	background: var(--color-naranja);
+    padding:20px;
+    border-radius: 100%;
+	text-align: center;
+}
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Khula', sans-serif;
+}
+
+#whatyougettext i{
+	text-align: center;
+	font-size: 50px;
+}
+
+#whatyougetrows i {
+	font-size: 30px;
+}
+
+#contact i {
+	font-size: 20px;
+	color: #fff;
+}
+
+#redes i {
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	padding: 1% 0 1% 35%;
 }
 
 p{
@@ -85,14 +131,21 @@ i {
 	
 }
 
+#boton {
+	color: #fff;
+}
+
 .btn-light{
 	background-color: transparent;
-	border-radius: 19px;
-	padding: 10px 8px !important;
+	border-radius: 19px !important;
+	border-color: #fff; 
+	border-width: thin;
+	padding: 10px 8px 8px !important;
 	font-size: 14px;
 	color: #fff;
-	text-transform: uppercase; 
-	width: 20%;
+	text-transform: uppercase;
+	width: 50%;
+	text-align: center;
 	
 }
 
@@ -192,9 +245,9 @@ i {
 
 .btn {
 	border: 0;
+	border-width: thin;
 	border-radius: 19px;
 	text-align: center;
-	
 }
 
 .btn-primary{
@@ -207,7 +260,7 @@ i {
 }
 
 .section{
-	padding: 10% 0;
+	padding: 8% 0;
 }
 
 
